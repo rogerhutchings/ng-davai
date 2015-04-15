@@ -1,25 +1,18 @@
 {
-  "name": "angularjs-gulp-browserify-boilerplate",
-  "version": "0.1.0",
-  "author": "Jake Marsh <jakemmarsh@gmail.com>",
-  "contributors": [
-    {
-      "name": "Solomon Hawk",
-      "email": "solomon.hawk@viget.com",
-      "url": "http://www.solomohawk.com/"
-    }
-  ],
-  "description": "Boilerplate using AngularJS, SASS, Gulp, and Browserify while also utilizing best practices.",
+  "name": "ng-davai",
+  "version": "0.0.1",
+  "author": "Roger Hutchings <roger@hutchin.gs>",
+  "description": "Boilerplate using AngularJS, Stylus, Gulp, and Browserify while also utilizing best practices.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate.git"
+    "url": "https://github.com/rogerhutchings/ng-davai.git"
   },
   "keywords": [
     "express",
     "gulp",
     "browserify",
     "angular",
-    "sass",
+    "stylus",
     "karma",
     "jasmine",
     "protractor",
