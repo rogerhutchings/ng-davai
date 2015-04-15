@@ -7,13 +7,15 @@ var handleErrors = require('../util/handleErrors');
 var browserSync  = require('browser-sync');
 var stylus       = require('gulp-stylus');
 var sourcemaps   = require('gulp-sourcemaps');
+var nib          = require('nib');
 
 gulp.task('styles', function () {
 
   return gulp.src(config.styles.src)
     .pipe(sourcemaps.init())
     .pipe(stylus({
-        compress: global.isProd ? true : false
+        compress: global.isProd ? true : false,
+        use: [nib()]
     }))
     .pipe(sourcemaps.write())
     .on('error', handleErrors)
