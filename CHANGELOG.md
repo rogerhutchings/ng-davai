@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file. This projec
 
 ## [Unreleased][Unreleased]
 ### Added
-- Nib
+- Nib, Bootstrap to styles task
 
 ## [0.1.0] - 15 April 2015
 ### Added

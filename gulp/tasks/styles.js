@@ -8,6 +8,7 @@ var browserSync  = require('browser-sync');
 var stylus       = require('gulp-stylus');
 var sourcemaps   = require('gulp-sourcemaps');
 var nib          = require('nib');
+var bootstrap    = require('bootstrap-styl');
 
 gulp.task('styles', function () {
 
@@ -15,7 +16,7 @@ gulp.task('styles', function () {
     .pipe(sourcemaps.init())
     .pipe(stylus({
         compress: global.isProd ? true : false,
-        use: [nib()]
+        use: [nib(), bootstrap()]
     }))
     .pipe(sourcemaps.write())
     .on('error', handleErrors)
