@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. This projec
 ## [Unreleased][Unreleased]
 ### Added
 - Nib, Bootstrap to styles task
+- Bootstrap import and variables overrides in Stylus
+- Glyphicons to repo
 
 ## [0.1.0] - 15 April 2015
 ### Added
