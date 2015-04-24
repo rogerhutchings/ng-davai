@@ -1,14 +1,13 @@
 'use strict';
 
 var angular = require('angular');
+var bulk = require('bulk-require');
 
 // Angular modules
 require('angular-ui-router');
 
 // App modules
-// TODO: replace with correct bulk-require pattern
-var bulk = require('bulk-require');
-bulk(__dirname, ['./**/!(app).module.js']);
+bulk(__dirname, ['./**/!(app.module).js']);
 
 // Create and bootstrap application
 angular.element(document).ready(startApp);
