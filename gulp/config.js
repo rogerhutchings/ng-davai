@@ -45,7 +45,7 @@ module.exports = {
   },
 
   'browserify': {
-    'entries'   : ['./app/js/main.js'],
+    'entries'   : ['./app/modules/app.module.js'],
     'bundleName': 'main.js',
     'sourcemap' : true
   },
