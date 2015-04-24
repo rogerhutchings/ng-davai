@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file. This projec
 - Nib, Bootstrap to styles task
 - Bootstrap import and variables overrides in Stylus
 - Glyphicons to repo
+- Demo module to show new module pattern
+
+### Changed
+- Now uses a module pattern for script files
+- Templates are compiled into their own module
+
+### Removed
+- Old scripts from [jakemmarsh/angularjs-gulp-browserify-boilerplate](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate) have been taken out
 
 ## [0.1.0] - 15 April 2015
 ### Added
