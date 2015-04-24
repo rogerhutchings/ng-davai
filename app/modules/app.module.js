@@ -20,7 +20,8 @@ function startApp() {
         'ui.router',
 
         // App modules
-        'app.demo'
+        'app.demo',
+        'app.templates'
     ];
 
     // Mount on window for testing

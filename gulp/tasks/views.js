@@ -11,10 +11,11 @@ gulp.task('views', function() {
   gulp.src('app/index.html')
     .pipe(gulp.dest(config.dist.root));
 
-  // Process any other view files from app/views
+  // Process any other view files from app/modules
   return gulp.src(config.views.src)
-    .pipe(templateCache({
-      standalone: true
+    .pipe(templateCache('templates.templates.js', {
+      standalone: false,
+      module: 'app.templates'
     }))
     .pipe(gulp.dest(config.views.dest));
 

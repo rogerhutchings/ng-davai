@@ -28,10 +28,10 @@ module.exports = {
   'views': {
     'watch': [
       'app/index.html',
-      'app/views/**/*.html'
+      'app/modules/**/*.html'
     ],
-    'src': 'app/views/**/*.html',
-    'dest': 'app/js'
+    'src': 'app/modules/**/*.html',
+    'dest': 'app/modules/templates'
   },
 
   'gzip': {
