@@ -42,7 +42,7 @@ gulp.task('views', function () {
     };
 
     // Look in each module for templates
-    var processModules = function processModules(err, subdirs) {
+    var processModules = function (err, subdirs) {
         if (err) throw err;
         subdirs.forEach(function (subdir) {
             viewsPromises.push(processModuleTemplates(subdir))
