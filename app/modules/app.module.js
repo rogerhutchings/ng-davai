@@ -19,11 +19,14 @@ function startApp() {
         'ui.router',
 
         // App modules
+        'app.core',
         'app.demo'
     ];
 
     // Mount on window for testing
-    window.app = angular.module('app', requires);
+    window.app = angular
+        .module('app', requires)
+        .constant('appConfig', require('./app.config.js'));
 
     angular.bootstrap(document, ['app']);
 
