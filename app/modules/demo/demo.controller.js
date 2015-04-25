@@ -1,18 +1,17 @@
 'use strict';
 
-var module = require('./demo.module.js');
+require('./demo.module.js')
+    .controller('ExampleCtrl', ExampleCtrl);
 
 /**
  * @ngInject
  */
 function ExampleCtrl() {
 
-  // ViewModel
-  var vm = this;
+    // ViewModel
+    var vm = this;
 
-  vm.title = 'AngularJS, Gulp, and Browserify!';
-  vm.number = 1234;
+    vm.title = 'AngularJS, Gulp, and Browserify!';
+    vm.number = 1234;
 
 }
-
-module.controller('ExampleCtrl', ExampleCtrl);

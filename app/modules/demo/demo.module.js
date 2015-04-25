@@ -1,6 +1,5 @@
 'use strict';
 
-var angular = require('angular');
-
 // Declare module
-module.exports = angular.module('app.demo', []);
+module.exports = require('angular')
+    .module('app.demo', []);
