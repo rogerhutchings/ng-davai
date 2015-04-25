@@ -4,6 +4,10 @@ module.exports = {
 
   'serverport': 3000,
 
+  'modules': {
+    'src': 'app/modules'
+  },
+
   'styles': {
     'watch' : 'app/styles/**/*.styl',
     'src': 'app/styles/main.styl',
@@ -29,9 +33,7 @@ module.exports = {
     'watch': [
       'app/index.html',
       'app/modules/**/*.html'
-    ],
-    'src': 'app/modules/**/*.html',
-    'dest': 'app/modules/templates'
+    ]
   },
 
   'gzip': {
