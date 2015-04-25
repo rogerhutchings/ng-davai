@@ -5,6 +5,7 @@ var gulp          = require('gulp');
 var templateCache = require('gulp-angular-templatecache');
 var dir           = require('node-dir');
 var Q             = require('q');
+
 // Views task
 gulp.task('views', function () {
 
