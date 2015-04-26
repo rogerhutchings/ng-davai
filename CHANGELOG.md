@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased][Unreleased]
+## [1.0.0] - 26 April 2015
 ### Added
 - Nib, Bootstrap to styles task
 - Bootstrap import and variables overrides in Stylus
@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file. This projec
 ### Changed
 - Now uses a module pattern for script files
 - Templates are compiled into their own module
+- Moved config options to app.module.js
 
 ### Removed
 - Old scripts from [jakemmarsh/angularjs-gulp-browserify-boilerplate](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate) have been taken out
