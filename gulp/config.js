@@ -4,6 +4,10 @@ module.exports = {
 
   'serverport': 3000,
 
+  'modules': {
+    'src': 'app/modules'
+  },
+
   'styles': {
     'watch' : 'app/styles/**/*.styl',
     'src': 'app/styles/main.styl',
@@ -28,10 +32,8 @@ module.exports = {
   'views': {
     'watch': [
       'app/index.html',
-      'app/views/**/*.html'
-    ],
-    'src': 'app/views/**/*.html',
-    'dest': 'app/js'
+      'app/modules/**/*.html'
+    ]
   },
 
   'gzip': {
@@ -45,7 +47,7 @@ module.exports = {
   },
 
   'browserify': {
-    'entries'   : ['./app/js/main.js'],
+    'entries'   : ['./app/modules/app.module.js'],
     'bundleName': 'main.js',
     'sourcemap' : true
   },
