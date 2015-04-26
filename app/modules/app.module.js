@@ -2,6 +2,7 @@
 
 var angular = require('angular');
 var bulk = require('bulk-require');
+var appConfig = require('./app.config.js');
 
 // Angular modules
 require('angular-ui-router');
@@ -26,7 +27,8 @@ function startApp() {
     // Mount on window for testing
     window.app = angular
         .module('app', requires)
-        .constant('appConfig', require('./app.config.js'));
+        .constant('appConfig', appConfig.constants)
+        .config(appConfig.routes);
 
     angular.bootstrap(document, ['app']);
 

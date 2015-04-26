@@ -4,4 +4,14 @@ var appConfig = {
     appTitle: 'ng-davai'
 };
 
-module.exports = appConfig;
+/**
+ * @ngInject
+ */
+function routes($locationProvider) {
+    $locationProvider.html5Mode(true);
+}
+
+module.exports = {
+    constants: appConfig,
+    routes: routes
+};
