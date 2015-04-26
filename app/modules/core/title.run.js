@@ -3,19 +3,16 @@
 require('./core.module.js')
     .run(setPageTitle);
 
-
 /**
  * @ngInject
  */
 function setPageTitle($rootScope, appConfig) {
 
-    console.log('lol')
-
   // change page title based on state
-  $rootScope.$on('$stateChangeSuccess', function(event, toState) {
+  $rootScope.$on('$stateChangeSuccess', function (event, toState) {
     $rootScope.pageTitle = '';
 
-    if ( toState.title ) {
+    if (toState.title) {
       $rootScope.pageTitle += toState.title;
       $rootScope.pageTitle += ' \u2014 ';
     }
