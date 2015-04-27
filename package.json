@@ -1,6 +1,6 @@
 {
   "name": "ng-davai",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Roger Hutchings <roger@hutchin.gs>",
   "description": "Boilerplate using AngularJS, Stylus, Gulp, and Browserify while also utilizing best practices.",
   "repository": {

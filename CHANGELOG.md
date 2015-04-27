@@ -1,9 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased][Unreleased]
+## [1.1.0] - 27 April 2015
 ### Added
 - 404 module
+
+### Changed
+- Ensure production task finishes views before running browserify
 
 ## [1.0.0] - 26 April 2015
 ### Added
