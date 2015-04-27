@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased][Unreleased]
+### Changed
+- Dependencies accidentally added in `package.json` moved to depDependencies
+
 ## [1.1.0] - 27 April 2015
 ### Added
 - 404 module
