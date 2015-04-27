@@ -21,6 +21,7 @@ function startApp() {
 
         // App modules
         'app.core',
+        'app.404',
         'app.demo'
     ];
 

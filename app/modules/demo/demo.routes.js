@@ -9,13 +9,11 @@ require('./demo.module.js')
 function Routes($stateProvider, $locationProvider, $urlRouterProvider) {
 
     $stateProvider
-    .state('Home', {
-        url: '/',
-        controller: 'ExampleCtrl as home',
-        templateUrl: 'demo/home.html',
-        title: 'Home'
-    });
-
-    $urlRouterProvider.otherwise('/');
+        .state('Home', {
+            url: '/',
+            controller: 'ExampleCtrl as home',
+            templateUrl: 'demo/home.html',
+            title: 'Home'
+        });
 
 }
