@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. This projec
 ## [Unreleased][Unreleased]
 ### Changed
 - Dependencies accidentally added in `package.json` moved to depDependencies
+- Fixed gulp lint task
 
 ## [1.1.0] - 27 April 2015
 ### Added
