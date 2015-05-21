@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][Unreleased]
+### Added
+- Added `dev` as default Gulp task
+
 ### Changed
 - Dependencies accidentally added in `package.json` moved to depDependencies
 - Fixed gulp lint task
