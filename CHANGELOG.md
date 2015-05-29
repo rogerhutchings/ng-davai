@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file. This projec
 ### Changed
 - Dependencies accidentally added in `package.json` moved to depDependencies
 - Fixed gulp lint task
+- Tweak linting settings allow late function declarations, as used in style guide
 
 ## [1.1.0] - 27 April 2015
 ### Added
